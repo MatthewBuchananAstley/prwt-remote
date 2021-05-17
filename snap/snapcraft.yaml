@@ -11,9 +11,9 @@ description: |
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
-apps:
-  prwt-remote:
-    command: /snap/20a90d3114acdc96_prwt-remote.py
+#apps:
+#  prwt-remote:
+#    command: /snap/20a90d3114acdc96_prwt-remote.py
 
 parts:
   my-part:
