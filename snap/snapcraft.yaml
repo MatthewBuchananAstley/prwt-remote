@@ -1,6 +1,6 @@
 name: prwt-remote
 version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
-summary: Summarize login session times from last -F output or check if a timestamp is present in a login session on a remote host. # 79 char long summary
+summary: Summarize login session times or check login session for a timestamp. # 79 char long summary
 description: |
   Script sums the login session times on a remote linux host. It prints the start/end
   dates for each week of the year for which there is login session data.
