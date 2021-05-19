@@ -11,11 +11,6 @@ description: |
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
-environment: 
-  SNAP=/snap/prwt-remote/current/snap
-  PATH="$SNAP/usr/sbin:$SNAP/usr/bin:$SNAP/sbin:$SNAP/bin${PATH:+:$PATH}"
-  LD_LIBRARY_PATH="$SNAP_LIBRARY_PATH${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-
 apps:
   prwt-remote:
     #command: /home/matthew/prwt-remote/snap/bin/20a90d3114acdc96_prwt-remote.py
