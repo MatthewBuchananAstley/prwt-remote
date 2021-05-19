@@ -1,0 +1,16 @@
+name: prwt-remote
+version: '0.1'
+summary: Summarize login session times or check login session for a timestamp.
+description: |
+  Script sums the login session times on a remote linux host. It prints the start/end
+  dates for each week of the year for which there is login session data.
+  Optionally the script prints the summary for one week using the week number.
+
+  The script can check if a timestamp is present in the login session data.
+architectures:
+- amd64
+confinement: devmode
+grade: stable
+apps:
+  prwt-remote:
+    command: command-prwt-remote.wrapper
